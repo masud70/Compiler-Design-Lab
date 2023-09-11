@@ -1,0 +1,9 @@
+To parse this grammar using ANTLR4:
+	1. Install ANTLR4 from 'https://www.antlr.org/' and complete all the setup process.
+	2. Write Context-Free-Grammar in the ANTLR4 format. (In this case CFG.g4)
+	3. Create a .txt file and write a test string to parse using the CFG.
+	4. Finally run the following commands:
+		a. class
+		b. antlr CFG.g4
+		c. javac CFG*.java
+		d. grun CFG sentence test.txt -gui
