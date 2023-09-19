@@ -1,0 +1,12 @@
+@variable = 42;
+
+@a = 5;
+@b = 7;
+
+@result = @a + @b;
+
+if (1) {
+    print(@a);
+}
+
+print(@result);
