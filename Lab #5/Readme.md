@@ -1,18 +1,20 @@
 # Three Address Code
 
-This subdirectory contains code and examples related to generating and working with Three Address Code. Three Address Code is an intermediate representation used in compilers and interpreters to simplify the execution of high-level programming language statements. It is designed to be easier to analyze and transform into machine code.
+This subdirectory contains code and examples related to generating and working with the Three Address Code. Three Address Code is an intermediate representation used in compilers and interpreters to simplify the execution of high-level programming language statements. It is designed to be easier to analyze and transform into machine code.
 
 ## Three Address Code Example
 
-Given the expression: 
-    ```a = b + c * d```
+Given the expression:
+```
+a = b + c * d
+```
 
 Three Address Code:
-    ```
+```
     t1 = c * d
     t2 = b + t1
     a = t2
-    ```
+```
 
 ## Prerequisites
 
