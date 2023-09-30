@@ -1,10 +1,14 @@
 x = y/5;
+print(x);
 if (a) {
-    if(a<b){
+    if(a<(b+5)){
         m = 5;
     }else{
         m = 10;
     }
 }else{
     x = y + z;
+    print(x);
 }
+a = b + c*d/3;
+print(a>(x*5));
