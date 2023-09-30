@@ -9,7 +9,6 @@ Welcome to the Compiler Design Lab repository! This repository contains the sour
 - **Lexical Analysis**: Implementation of lexical analysis to tokenize source code.
 - **Syntax Analysis**: Building parsers to validate the syntax of programming languages.
 - **Three-Address Code**: Generation of intermediate code for efficient code representation.
-<!-- - **Stack Machine**: Implementation of a stack-based virtual machine to execute code. -->
 - **ANTLR4**: Utilization of ANTLR4 parser generator for parsing tasks.
 - **BISON**: Integration of BISON parser generator for syntax analysis.
 
