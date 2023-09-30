@@ -9,11 +9,10 @@ Given the expression:
 
 Three Address Code:
     ```
-        t1 = c * d
-        t2 = b + t1
-        a = t2
+    t1 = c * d
+    t2 = b + t1
+    a = t2
     ```
-
 
 ## Prerequisites
 
