@@ -9,9 +9,9 @@ Given the expression:
 
 Three Address Code:
     ```
-    1. t1 = c * d
-    2. t2 = b + t1
-    3. a = t2
+        t1 = c * d
+        t2 = b + t1
+        a = t2
     ```
 
 
@@ -35,6 +35,8 @@ To compile and run the code examples in this directory, follow these steps:
 3. Once the compilation is successful, you can run the generated executable. For example, if the executable is named ***a.exe***, run:
     ```
     make run
+        or
+    ./a <input_file.txt>
     ```
 
 ### Note:
