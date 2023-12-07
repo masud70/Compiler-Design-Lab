@@ -1,0 +1,4 @@
+Compile the parser generator simply running make command:
+```bash
+make
+```
