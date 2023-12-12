@@ -8,7 +8,7 @@
 "print"         { return PRINT; }
 "if"		    { return IF; }
 "else"		    { return ELSE; }
-"@"[a-zA-Z][a-zA-Z0-9]{0,19} { yylval.strval = strdup(yytext); return IDENTIFIER; }
+[a-zA-Z][a-zA-Z0-9]{0,19} { yylval.strval = strdup(yytext); return IDENTIFIER; }
 [0-9]+          { yylval.numval = atoi(yytext); return NUMBER; }
 "+"             { return ADD; }
 "-"             { return SUB; }
